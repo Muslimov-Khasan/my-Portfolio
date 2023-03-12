@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!-- header  -->
+    <header class="header">
+      <div class="container">
+        <div class="headear-inner">
+          <a href="#" class="header-logo"> Xasan </a>
+          <input type="checkbox" name="check" id="check" />
+          <label for="check">
+            <i class="bx bx-menu" id="btn"></i>
+            <i class="bx bx-x" id="cancel"></i>
+          </label>
+          <div class="menyu">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#home" class="menyu-item"> Bosh Sahifa </a>
+                </li>
+                <li class="nav__item">
+                  <a href="#about" class="menyu-item"> Men haqimda </a>
+                </li>
+                <li class="nav__item">
+                  <a href="#skill" class="menyu-item"> Ko'nikmalar </a>
+                </li>
+                <li class="nav__item">
+                  <a href="#services" class="menyu-item"> Xizmatlar </a>
+                </li>
+                <a href="#contact" class="menyu-item"> Bog'lanish </a>
+              </ul>
+            </nav>
+
+            <div class="language">
+              <a href="./index.html" class="lang-item"> Uzb </a>
+              <a href="./main.html" class="lang-items"> Eng </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- headaer  -->
+    <main>
+      <!-- hero  -->
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="hero-inner">
+            <div class="hero-box">
+              <span class="her-span"> Assalomu Aleykum, men </span>
+              <h2 class="hero-paragraph">Xasan Muslimov</h2>
+              <p class="hero-text">Frontend Dasturchiman</p>
+              <div class="hero-mini-box">
+                <p class="hero-animate">HTML</p>
+                <p class="hero-animate">CSS</p>
+                <p class="hero-animate">SASS</p>
+                <p class="hero-animate">Bootstrap</p>
+                <p class="hero-animate">Git</p>
+                <p class="hero-animate">JavaScript</p>
+                <p class="hero-animate">React js</p>
+              </div>
+              <a class="hero-link" href="tel:+998931052068">
+                <button class="hero-btn">Bog'lanish</button>
+              </a>
+            </div>
+            <img
+              class="hero-img"
+              src="./img/Im.jpg"
+              alt="img"
+              width="433"
+              height="577"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- hero  -->
+      <!-- about  -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-inner">
+            <h2 class="about-paragraph">Men haqimda</h2>
+
+            <div class="about-box">
+              <div class="div">
+                <img
+                  src="./img/nootbok.jpg"
+                  alt="my img"
+                  class="about-img"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                />
+              </div>
+              <div
+                class="about-box-right"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <h2 class="about-me">Assalomu aleykum! Men Xasan Muslimov</h2>
+                <p class="about-text">
+                  Men Xasan Muslimov Frontent Dasturchiman 2005-yili Toshkent
+                  Shahar Olmazor tumanida tug'ilganman. Ma'lumotim o'rta
+                  2023-yili 11-sonli umum ta'lim maktabini tamomlaganman.
+                  Hozirda Najot Ta'lim zamonaviy kasblar markazida
+                  Web-dasturlash full stack kursida Backend bo'yicha o'qiyman
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about  -->
+      <!-- skills  -->
+      <section class="skill" id="skill">
+        <div class="container">
+          <div class="skill-inner">
+            <h2 class="skill-paragraph">Ko'nikmalar</h2>
+
+            <div class="skill-box">
+              <div
+                class="skill-card-one skill-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/html.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">HTML</p>
+              </div>
+              <div
+                class="skill-card-two skill-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/css-3.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">CSS</p>
+              </div>
+              <div
+                class="skill-card-three skill-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/sass.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">SASS</p>
+              </div>
+              <div
+                class="skill-card-four skill-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/git.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">Git</p>
+              </div>
+              <div
+                class="skill-card-five skill-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/bootstrap.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">Bootstrap</p>
+              </div>
+              <div
+                class="skill-card-six skill-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/js.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">JavaScript</p>
+              </div>
+              <div
+                class="skill-card-seven skill-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/physics.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">React js</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills  -->
+      <!-- sevices  -->
+      <section class="services" id="services">
+        <div class="container">
+          <div class="services-inner">
+            <h2 class="services-paragraph">Xizmatlar</h2>
+            <p class="services-p">
+              Web-sohaasida Frontend qismidagi loyihalarni qilish. Biznesingiz
+              haqida ma'lumot beruvchi, turizm sohasidagi va boshqa turdagi
+              saytlar tayyorlayman.
+            </p>
+
+            <div class="services-box">
+              <div
+                class="services-card-one sevices-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/engineering.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">Qurilish kompaniyalari</p>
+              </div>
+              <div
+                class="services-card-two sevices-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/location.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">Turizm sohasi uchun</p>
+              </div>
+              <div
+                class="services-card-three sevices-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/briefcase.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">Biznesingiz uchun</p>
+              </div>
+              <div
+                class="services-card-four sevices-card"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <img
+                  src="./img/man-user.png"
+                  alt="img"
+                  class="skill-img"
+                  width="80"
+                  height="80"
+                />
+                <p class="card-p">o'zingiz haqingizda</p>
+              </div>
+            </div>
+
+            <a class="sevices-link" href="tel:+998931052068">
+              <button class="services-btn">Bog'lanish</button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- services  -->
+      <!-- work  -->
+
+      <!-- work  -->
+      <!-- contact  -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-inner">
+            <h2 class="contact-parahraph">Bog'lanish</h2>
+            <div class="contact-box">
+              <a
+                href="tel:+998931052068"
+                class="contact-card"
+                data-aos-duration="1000"
+                data-aos="zoom-in"
+              >
+                <img
+                  src="./img/phone-call.png"
+                  alt="icon"
+                  class="contact-img"
+                  width="60"
+                  height="60"
+                />
+                <p class="contact-p">Qo'ng'iroq</p>
+                <p class="contact-p">+998 93 105 20 68</p>
+              </a>
+              <a
+                target="_blank"
+                href="mailto:muslimovxasan050@gmail.com"
+                class="contact-card"
+                data-aos-duration="1000"
+                data-aos="zoom-in"
+              >
+                <img
+                  src="./img/email.png"
+                  alt="icon"
+                  class="contact-img"
+                  width="60"
+                  height="60"
+                />
+                <p class="contact-p">Elektron manzil</p>
+                <p class="contact-p">muslimovxasan050@gmail.com</p>
+              </a>
+              <a
+                target="_blank"
+                href=""
+                class="contact-card"
+                data-aos-duration="1000"
+                data-aos="zoom-in"
+              >
+                <img
+                  src="./img/internet.png"
+                  alt="icon"
+                  class="contact-img"
+                  width="60"
+                  height="60"
+                />
+                <p class="contact-p">Website</p>
+                <p class="contact-p">My-Portfolyo.org</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact  -->
+    </main>
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <h2 class="footer-paragraph">Xasan Muslimov</h2>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/muslimov.dev/"
+                class="footer-item-link"
+              >
+                <img
+                  class="footer-item-img"
+                  src="./img/instagram.png"
+                  alt="logo"
+                  width="25"
+                  height="25"
+                />
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                target="_blank"
+                href="https://t.me/xasanMuslimov"
+                class="footer-item-link"
+              >
+                <img
+                  class="footer-item-img"
+                  src="./img/telegram.png"
+                  alt="logo"
+                  width="25"
+                  height="25"
+                />
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                target="_blank"
+                href="https://github.com/Muslimov-Xasan"
+                class="footer-item-link"
+              >
+                <img
+                  class="footer-item-img"
+                  src="./img/github.png"
+                  alt="logo"
+                  width="25"
+                  height="25"
+                />
+              </a>
+            </li>
+            <li class="footer-item">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/xasan-muslimov-b58364231/"
+                class="footer-item-link"
+              >
+                <img
+                  class="footer-item-img"
+                  src="./img/linkedin.png"
+                  alt="logo"
+                  width="25"
+                  height="25"
+                />
+              </a>
+            </li>
+               
+          </ul>
+          <p class="footer-text">Copyright @2023, All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer  -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./js/main.min.js"></script>
+    <script src="./js/jquery.js"></script>
+  </body>
+</html>
